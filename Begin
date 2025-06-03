@@ -1,0 +1,80 @@
+#1-Given the side a of a square, find the perimeter P of the square: P = 4·a.  
+
+a=float(input("Kavadratning tomonini kiriting: "))
+R=4*a
+print(f"Kavdratning perimetiri {R}-ga teng")
+
+#2-Given the side a of a square, find the area S of the square: S = a2.  
+
+a=float(input("Kavadratning tomonini kiriting: "))
+S=a**2
+print(f"Kavdratning yuzasi {S}-ga teng")
+
+#3-The sides a and b of a rectangle are given. Find the area S = a·b and the perimeter P = 2·(a + b) of the rectangle.  
+
+a=float(input("a= "))
+b=float(input("b= "))
+S=a*b
+P=2*(a+b)
+print(f"To'g'ri to'rtburchakning yuzasi {S}-ga teng")
+print(f"To'g'ri to'rtburchakning perimetiri {P}-ga teng")
+
+#4-Given the diameter d of a circle, find the length L of the circle: L = π·d. Use 
+
+d=float(input("d= "))
+L=3.14*d
+print(f"Aylananing uzunligi {L}-ga teng")
+
+#5-Given the edge a of a cube, find the volume V = a3 and the surface area S = 6·a2 of the cube.  
+
+a=float(input("Kubning tomoni teng: "))
+V=a**3
+S=6*(a**2)
+print(f"Kubning hajmi {V}-ga teng")
+print(f"Kubning yuzasi {S}-ga teng")
+
+#6-The edges a, b, c of a right parallelepiped are given. Find the volume V = a·b·c and the surface area S = 2·(a·b + b·c + a·c) of the right parallelepiped.
+
+print("Paralilapipedning")
+a=float(input("a="))
+b=float(input("b="))
+c=float(input("c="))
+V=a*b*c
+S=2*(a*b+b*c+a*c)
+print(f"Paralilapipedning hajmi {V}-ga teng")
+print(f"Paralilapipedning yuzasi {V}-ga teng")
+
+#7-Given the radius R of a circle, find the length L of the circumference and the area S of the circle:  L = 2·π·R,        S = π·R2. Use 3.14 for a value of π.
+
+R=float(input("Aylananing radiusi: "))
+L=2*4.14*R
+S=3.14*(R**2)
+print(f"Aylanning uzunligi {L}-ga teng")
+print(f"Aylanning yuzasi {S}-ga teng")
+
+#8-Given two numbers a and b, find their average: (a + b)/2.  
+
+a=float(input("a="))
+b=float(input("b="))
+o=(a+b)/2
+print(f"O'rtacha qiymati {o}-ga teng")
+
+#9-Given two nonnegative numbers a and b, find their geometrical mean (a square root of their product): (a·b)1/2.  
+
+a=float(input("a="))
+b=float(input("b="))
+go=(a*b)**(1/2)
+print(f"Geometrik o'rtacha qiymati {go}-ga teng")
+
+#10-Two nonzero numbers are given. Find the sum, the difference, the product, and the quotient of their squares.  
+
+a=float(input("a="))
+b=float(input("b="))
+ky=(a**2)+(b**2)
+ka=(a**2)-(b**2)
+kk=(a**2)*(b**2)
+kb=(a**2)/(b**2)
+print(f"Kavdrat yig'indi {ky}-ga teng")
+print(f"Kavdrat ayirma {ka}-ga teng")
+print(f"Kavdrat ko'payitma {kk}-ga teng")
+print(f"Kavdrat bo'linma {kb}-ga teng")
